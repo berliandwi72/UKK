@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Teknologi Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Blog Teknologi Saya</h1>
+  </header>
+
+  <main>
+    <article>
+      <h2>Judul Artikel</h2>
+      <img src="WhatsApp Image 2026-11-18 at 08.02.34.jpeg" alt="gambar artikel">
+      <p>Manchester United F.C. adalah klub sepak bola profesional asal Inggris yang bermarkas di Old Trafford</p>
+      <p>didirikan pertama kali pada tahun 1878.</p>
+    </article>
+
+    <aside>
+      <img class="foto" src="WhatsApp Image 2026-11-13 at 21.23.05.jpeg" alt="foto penulis">
+      <h3>Tentang Penulis</h3>
+      <p>Penulis suka belajar dan suka membantu teman.</p>
+    </aside>
+  </main>
+
+  <form id="formKontak" action="#" method="get">
+    <h2>Form Kontak</h2>
+
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama" required minlength="3" maxlength="50">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="topik">Topik:</label>
+    <select id="topik" name="topik" required>
+      <option value="">-- Pilih --</option>
+      <option value="saran">jadwal</option>
+      <option value="pertanyaan">pertanyaan</option>
+      <option value="kerjasama">pertandingan</option>
+    </select>
+
+    <label for="pesan">Pesan:</label>
+    <textarea id="pesan" name="pesan" rows="5" required minlength="10" maxlength="200"></textarea>
+
+    <label for="langganan">
+      <input type="checkbox" id="langganan" name="langganan">
+      Langganan artikel baru
+    </label>
+
+    <button type="submit">Kirim</button>
+  </form>
+
+  <footer>
+    <p>Hak cipta 2026</p>
+  </footer>
+
+</body>
+</html>
